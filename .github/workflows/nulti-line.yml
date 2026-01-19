@@ -1,5 +1,5 @@
 name: multi line command
-on: multi line
+on: workflow_dispatch
 jobs:
   second-job:
     runs-on: ubuntu-latest
