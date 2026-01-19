@@ -1,5 +1,5 @@
 name: multi line command
-on:  multi-line-forkflow
+on:
 jobs:
   second-job:
     runs-on: ubuntu-latest
