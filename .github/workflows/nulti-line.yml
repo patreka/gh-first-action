@@ -1,0 +1,11 @@
+name: multi line command
+on:  multi-line-forkflow
+jobs:
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: multi line command
+        run:  |
+              echo "First output"
+              echo  "Swcond outputs"
+              echo "Done multi line command"
